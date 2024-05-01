@@ -1,0 +1,10 @@
+<suite name="Petadmission">
+    <listeners>
+        <listener class-name="Manager.AnnotationTransfer"></listener>
+    </listeners>
+    <test name="admissionTest">
+        <classes>
+            <class name="Runner.PetAdmission_Runner"/>
+        </classes>
+    </test>
+</suite>
